@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Obfuscator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>JS Obfuscator</h1>
+        <p>Protect Your JavaScript Code with Cutting-Edge, Professional Obfuscation</p>
+    </header>
+
+    <section class="input-section">
+        <h2>💻 Input JavaScript Code</h2>
+        <textarea id="inputCode" placeholder="Enter your JavaScript code here..."></textarea>
+
+        <label>Security Level</label>
+        <select id="securityLevel">
+            <option value="low">LOW</option>
+            <option value="medium" selected>MEDIUM</option>
+            <option value="high">HIGH</option>
+        </select>
+
+        <button onclick="obfuscateCode()">🔒 Obfuscate Code</button>
+    </section>
+
+    <section class="output-section">
+        <h2>🔐 Here Protected Code</h2>
+        <textarea id="outputCode" readonly></textarea>
+        <button onclick="copyCode()">📋 Copy Code</button>
+        <button onclick="downloadCode()">⬇️ Download File</button>
+    </section>
+
+    <footer>
+        <p>© 2025 ROMEK-XD JavaScript Obfuscation Tool</p>
+        <div class="social-icons">
+            <a href="#"><img src="github.png"></a>
+            <a href="#"><img src="telegram.png"></a>
+            <a href="#"><img src="whatsapp.png"></a>
+            <a href="#"><img src="youtube.png"></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
